@@ -1,5 +1,7 @@
+import Style from './header.module.scss';
+
 const Header = () => (
-  <header>
+  <header className={Style.app__header}>
     <a href="/#">Jake Felice</a>
     <nav>
       <ul>

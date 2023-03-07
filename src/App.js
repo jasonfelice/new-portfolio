@@ -1,9 +1,9 @@
+import Header from './components/header/Header';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h2>Jake Felice</h2>
-      </header>
+      <Header />
     </div>
   );
 }
