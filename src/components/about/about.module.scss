@@ -1,0 +1,19 @@
+.about {
+  padding: 100px 50px;
+  border-bottom: 1px solid #0000003f;
+}
+
+.circle {
+  min-width: 150px;
+  min-height: 150px;
+  background-color: rgb(235, 223, 68);
+  border-radius: 50%;
+}
+
+.me {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 500px;
+  text-align: justify;
+}
