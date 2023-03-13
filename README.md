@@ -1,2 +1,2 @@
 # Jake's Portfolio
-> New portfolio
+> `React` `Redux`
