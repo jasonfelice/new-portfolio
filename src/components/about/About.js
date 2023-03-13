@@ -2,6 +2,10 @@ import Style from './about.module.scss';
 
 const About = () => (
   <section className={Style.about}>
+    <div className={Style.about__greeting}>
+      <span>Hello</span>
+      <div className={Style.about__greetingBar} />
+    </div>
     <div className={Style.me}>
       <div className={Style.circle} />
       <p>
