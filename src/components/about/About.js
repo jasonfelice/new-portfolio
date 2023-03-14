@@ -1,5 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import Tooltip from '@mui/material/Tooltip';
+import { Avatar } from '@mui/material';
 import Style from './about.module.scss';
 import javas from '../../assets/tech-icons/javas.svg';
 import types from '../../assets/tech-icons/type.svg';
@@ -49,7 +50,7 @@ const About = () => {
       </div>
       <div className={Style.me}>
         <div className={Style.headline}>
-          <div className={Style.avatar} />
+          <Avatar sx={{ width: '150px', height: '150px' }} alt="Jake Felice" src="/static/images/avatar/1.jpg" />
           <h2>
             I’m Jake Felice
             Full-Stack Software Developer
