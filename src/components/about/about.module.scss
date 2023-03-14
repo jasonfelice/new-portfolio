@@ -1,6 +1,18 @@
 .about {
   padding: 25px 50px;
   border-bottom: 1px solid #0000003f;
+  position: relative;
+}
+
+.about::after {
+  content: '';
+  background: url(../../assets/graphics/about.svg) no-repeat center center/cover;
+  display: block;
+  position: absolute;
+  left: 66vw;
+  top: 96px;
+  height: 402px;
+  width: 450px;
 }
 
 .greeting {
@@ -38,6 +50,8 @@
     line-height: 30px;
   }
 }
+
+// Skills
 
 .technologies {
   list-style: none;
