@@ -1,4 +1,5 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable import/no-extraneous-dependencies */
+import Tooltip from '@mui/material/Tooltip';
 import Style from './about.module.scss';
 import javas from '../../assets/tech-icons/javas.svg';
 import types from '../../assets/tech-icons/type.svg';
@@ -11,31 +12,31 @@ import redux from '../../assets/tech-icons/redux.svg';
 const About = () => {
   const technologies = [
     {
-      name: 'javascript',
+      name: 'JavaScript',
       image: javas,
     },
     {
-      name: 'typescript',
+      name: 'TypeScript',
       image: types,
     },
     {
-      name: 'postgesql',
+      name: 'PostgreSql',
       image: psql,
     },
     {
-      name: 'ruby',
+      name: 'Ruby',
       image: ruby,
     },
     {
-      name: 'react',
+      name: 'React',
       image: react,
     },
     {
-      name: 'redux',
+      name: 'Redux',
       image: redux,
     },
     {
-      name: 'rails',
+      name: 'Ruby on Rails',
       image: rails,
     },
   ];
@@ -64,7 +65,9 @@ const About = () => {
       <ul className={Style.technologies}>
         {
           technologies.map((tech) => (
-            <li key={tech.name} style={{ backgroundImage: `url(${tech.image})` }} className={Style.tech} />
+            <Tooltip key={tech.name} title={tech.name} placement="top">
+              <li style={{ backgroundImage: `url(${tech.image})` }} className={Style.tech} />
+            </Tooltip>
           ))
         }
       </ul>
