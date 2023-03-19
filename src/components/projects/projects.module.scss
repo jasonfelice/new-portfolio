@@ -1,9 +1,17 @@
 .projects {
+  padding: 25px 50px;
   border-bottom: 1px solid #0000003f;
 }
 
-.projects div {
-  text-align: center;
-  font-size: 50px;
-  padding: 50px 50px 100px;
+.headline {
+  display: flex;
+  gap: 1%;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.headlineBar {
+  height: 1px;
+  background: #838383;
+  flex: 1;
 }
