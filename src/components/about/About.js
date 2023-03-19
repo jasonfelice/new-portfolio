@@ -48,30 +48,36 @@ const About = () => {
         <span>Hello</span>
         <div className={Style.greetingBar} />
       </div>
-      <div className={Style.me}>
-        <div className={Style.headline}>
-          <Avatar sx={{ width: '150px', height: '150px' }} alt="Jake Felice" src="/static/images/avatar/1.jpg" />
-          <h2>
-            I’m Jake Felice
-            Full-Stack Software Developer
-            and a tech fanatic
-          </h2>
-        </div>
-        <p>
-          Love solving problems, reading and learning new things. I always welcome new challenges.
-          I&apos;m a huge fan of classic rock n&apos; roll, and sometimes like to play guitar in my
-          free time.
-        </p>
-      </div>
-      <ul className={Style.technologies}>
-        {
+      <div className={Style.aboutWrapper}>
+        <div className={Style.content}>
+          <div className={Style.me}>
+            <div className={Style.headline}>
+              <Avatar sx={{ width: '150px', height: '150px' }} alt="Jake Felice" src="/static/images/avatar/1.jpg" />
+              <h2>
+                I’m Jake Felice
+                Full-Stack Software Developer
+                and a tech fanatic
+              </h2>
+            </div>
+            <p>
+              Love solving problems, reading and learning new things.
+              I always welcome new challenges.
+              I&apos;m a huge fan of classic rock n&apos; roll, and sometimes
+              like to play guitar in my
+              free time.
+            </p>
+          </div>
+          <ul className={Style.technologies}>
+            {
           technologies.map((tech) => (
             <Tooltip key={tech.name} title={tech.name} placement="top">
               <li style={{ backgroundImage: `url(${tech.image})` }} className={Style.tech} />
             </Tooltip>
           ))
         }
-      </ul>
+          </ul>
+        </div>
+      </div>
     </section>
   );
 };
