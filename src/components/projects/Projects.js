@@ -7,6 +7,11 @@ const Projects = () => (
       <span>Portfolio</span>
       <div className={Style.headlineBar} />
     </div>
+    <div className={Style.portfolioWrapper}>
+      <div className={Style.portfolio}>
+        <h2>Check out some of my work</h2>
+      </div>
+    </div>
   </section>
 );
 

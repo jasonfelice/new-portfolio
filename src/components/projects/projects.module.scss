@@ -1,17 +1,49 @@
 .projects {
   padding: 25px 50px;
+  position: relative;
   border-bottom: 1px solid #0000003f;
 }
+
+// portfolio section top
 
 .headline {
   display: flex;
   gap: 1%;
   align-items: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .headlineBar {
   height: 1px;
   background: #838383;
   flex: 1;
+}
+
+// Portfolio wrapper
+
+.portfolioWrapper {
+  display: flex;
+}
+
+.portfolioWrapper::before {
+  content: '';
+  background: url(../../assets/graphics/projects.svg) no-repeat center center/cover;
+  display: block;
+  width: 17vw;
+  height: 22vw;
+}
+
+
+// portfolio projects sub section
+
+.portfolio {
+  width: 50%;
+  margin-left: auto;
+  // this is temporary
+  border: 1px solid grey;
+
+  h2 {
+    font-size: 35px;
+    text-align: center;
+  }
 }
