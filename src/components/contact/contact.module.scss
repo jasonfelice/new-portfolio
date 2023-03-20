@@ -25,7 +25,20 @@
   flex: 0 0 50px;
 }
 
-// Form wrapper
+// Contact wrapper
+
+.contactWrapper::after {
+  content: '';
+  background: url(../../assets/graphics/connections.svg) no-repeat center center/cover;
+  width: 450px;
+  height: 340px;
+  display: block;
+  margin-left: auto;
+}
+
+.contactWrapper {
+  display: flex;
+}
 
 .form {
   width: 50%;
@@ -34,6 +47,7 @@
   align-items: center;
 
   p {
+    font-size: 20px;
     margin-bottom: 30px;
     text-align: center;
     width: 50%;
@@ -46,6 +60,8 @@
     width: 60%;
   }
 }
+
+// Form panel
 
 .formPanel {
   display: flex;
