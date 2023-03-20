@@ -1,5 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import TextField from '@mui/material/TextField';
 import Style from './contact.module.scss';
+import github from '../../assets/social-icons/github.svg';
+import linkedin from '../../assets/social-icons/linkedin.svg';
+import twitter from '../../assets/social-icons/twitter.svg';
 
 const Contact = () => (
   <section className={Style.contact}>
@@ -15,17 +20,22 @@ const Contact = () => (
           so feel free to reach out if you&apos;d like to get in touch.
         </p>
         <form>
-          <TextField id="outlined-basic" label="Name" variant="outlined" />
-          <TextField id="outlined-basic" type="email" label="Email" variant="outlined" />
+          <TextField required id="outlined-basic" label="Name" variant="outlined" />
+          <TextField required id="outlined-basic" type="email" label="Email" variant="outlined" />
           <TextField
+            required
             id="outlined-multiline-flexible"
-            label="Multiline"
+            label="Type your message"
             multiline
             rows={4}
-            defaultValue="Default Value"
           />
           <div className={Style.formPanel}>
-            <input type="submit" value="Submit" />
+            <button type="submit">Submit</button>
+            <ul className={Style.socialLinks}>
+              <li><a style={{ backgroundImage: `url(${linkedin})` }} target="_blank" href="/#" /></li>
+              <li><a style={{ backgroundImage: `url(${twitter})` }} target="_blank" href="/#" /></li>
+              <li><a style={{ backgroundImage: `url(${github})` }} target="_blank" href="/#" /></li>
+            </ul>
           </div>
         </form>
       </div>
