@@ -1,7 +1,5 @@
 .projects {
   padding: 25px 50px;
-  position: relative;
-  border-bottom: 1px solid #0000003f;
 }
 
 // portfolio section top
@@ -23,6 +21,7 @@
 
 .portfolioWrapper {
   display: flex;
+  margin-bottom: 80px;
 }
 
 .portfolioWrapper::before {

@@ -2,13 +2,10 @@ import Style from './contact.module.scss';
 
 const Contact = () => (
   <section className={Style.contact}>
-    <div>
-      Contact
-      <form>
-        <input type="text" name="Name" />
-        <input type="text" name="Email" />
-        <textarea name="Message" />
-      </form>
+    <div className={Style.headline}>
+      <div className={Style.headlineBar} />
+      <span>Connect with me</span>
+      <div className={Style.headlineBar} />
     </div>
   </section>
 );

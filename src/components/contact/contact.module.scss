@@ -1,9 +1,26 @@
 .contact {
-  border-bottom: 1px solid #0000003f;
+  padding: 25px 50px;
 }
 
-.contact div {
-  font-size: 50px;
-  text-align: center;
-  padding: 50px 50px 100px;
+// Contact section top
+
+.headline {
+  display: flex;
+  gap: 1%;
+  align-items: center;
+  margin-bottom: 60px;
+
+  span {
+    font-size: 30px;
+  }
+}
+
+.headlineBar {
+  height: 1px;
+  background: #838383;
+  flex: 1;
+}
+
+.headlineBar:nth-child(1) {
+  flex: 0 0 50px;
 }
