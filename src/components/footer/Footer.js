@@ -37,6 +37,7 @@ const Footer = () => (
           </a>
         </li>
       </ul>
+      <a href="mailto:jasonfelice0@gmail.com" target="_blank" className={Style.email} rel="noreferrer">jasonfelice0@gmail.com</a>
     </div>
   </footer>
 );
