@@ -67,6 +67,7 @@
 .formPanel {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .formPanel button {
@@ -85,9 +86,13 @@
 }
 
 .socialLinks {
+  position: absolute;
+  left: 0;
+  right: 0;
   margin: 0 auto;
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 5px;
 
   a {
