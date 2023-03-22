@@ -1,0 +1,24 @@
+//  Portfolio Head
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+
+// Arrows
+
+i {
+  background: url(../assets/icons/straight-arrow.svg) no-repeat center center/cover;
+  display: block;
+  width: 40px;
+  height: 62px;
+}
+
+.prev {
+  transform: rotate(-90deg);
+}
+
+.next {
+  transform: rotate(90deg);
+}
