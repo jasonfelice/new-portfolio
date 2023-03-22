@@ -1,4 +1,5 @@
 import Style from './projects.module.scss';
+import Portfolio from '../../components/Portfolio';
 
 const Projects = () => (
   <section className={Style.projects}>
@@ -10,6 +11,7 @@ const Projects = () => (
     <div className={Style.portfolioWrapper}>
       <div className={Style.portfolio}>
         <h2>Check out some of my work</h2>
+        <Portfolio />
       </div>
     </div>
   </section>
