@@ -21,6 +21,7 @@
 
 .portfolioWrapper {
   display: flex;
+  align-items: center;
   margin-bottom: 80px;
 }
 
@@ -38,11 +39,10 @@
 .portfolio {
   width: 50%;
   margin-left: auto;
-  // this is temporary
-  border: 1px solid grey;
 
   h2 {
     font-size: 35px;
     text-align: center;
+    margin-bottom: 45px;
   }
 }
