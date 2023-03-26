@@ -1,11 +1,11 @@
 import Styles from './portfolio.module.scss';
-import Project from './Project';
+import Card from './Project';
 
 const Portfolio = () => (
   <div className={Styles.wrapper}>
     <div className={Styles.top}>
       <i className={Styles.prev} />
-      <Project />
+      <Card />
       <i className={Styles.next} />
     </div>
   </div>
