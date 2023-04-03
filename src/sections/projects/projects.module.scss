@@ -1,3 +1,18 @@
 .projects {
   padding: 25px 50px;
 }
+
+// Headline
+
+.headline {
+  display: flex;
+  gap: 1%;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.headlineBar {
+  height: 1px;
+  background: #838383;
+  flex: 1;
+}
