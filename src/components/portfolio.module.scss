@@ -1,9 +1,4 @@
-.box {
-  border: 1px inset black;
-  min-width: 300px;
-  height: 400px;
-  border-radius: 2rem;
-}
+// Carousel Slider
 
 .carousel {
   overflow: hidden;
@@ -14,4 +9,12 @@
 .innerCarousel {
   display: flex;
   gap: 20px;
+  padding: 5px;
+}
+
+// Card
+
+.card {
+  min-width: 350px;
+  height: 400px;
 }
