@@ -7,7 +7,7 @@ const Header = ({ scrolled }) => {
 
   return (
     <header style={shadow} className={Style.app__header}>
-      <a href="/#">Jake Felice</a>
+      <a href="/#"><h3>Jake Felice</h3></a>
       <nav className={Style.app__headerNav}>
         <ul>
           <li><a href="#about">About</a></li>
