@@ -7,7 +7,7 @@ import linkedin from '../../assets/social-icons/linkedin.svg';
 import twitter from '../../assets/social-icons/twitter.svg';
 
 const Contact = () => (
-  <section className={Style.contact}>
+  <section id="contact" className={Style.contact}>
     <div className={Style.headline}>
       <div className={Style.headlineBar} />
       <span>Connect with me</span>

@@ -43,7 +43,7 @@ const About = () => {
   ];
 
   return (
-    <section className={Style.about}>
+    <section id="about" className={Style.about}>
       <div className={Style.greeting}>
         <span>Hello</span>
         <div className={Style.greetingBar} />

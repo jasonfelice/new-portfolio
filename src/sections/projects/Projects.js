@@ -2,7 +2,7 @@ import Style from './projects.module.scss';
 import Portfolio from '../../components/Portfolio';
 
 const Projects = () => (
-  <section className={Style.projects}>
+  <section id="projects" className={Style.projects}>
     <div className={Style.headline}>
       <div className={Style.headlineBar} />
       <span>Portfolio</span>
