@@ -1,3 +1,6 @@
+$theme: #2f2e41;
+$secondaryTheme: #575a89;
+
 .app__header {
   display: flex;
   justify-content: space-evenly;
@@ -17,10 +20,25 @@
 
 .app__header a {
   text-decoration: none;
+  color: $theme;
+}
+
+.app__header a::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 0;
+  height: 2px;
+  background: $secondaryTheme;
+  transition: all 0.3s ease-out;
+}
+
+.app__header a:hover::after {
+  width: 100%;
 }
 
 .app__headerNav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 2rem;
 }
