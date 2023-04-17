@@ -14,7 +14,11 @@ $secondaryTheme: #575a89;
   z-index: 9;
 
   h3 {
-    color: #000;
+    color: $secondaryTheme;
+  }
+
+  img {
+    width: 40px;
   }
 }
 
@@ -23,7 +27,7 @@ $secondaryTheme: #575a89;
   color: $theme;
 }
 
-.app__header a::after {
+.app__header ul a::after {
   content: '';
   display: block;
   margin: 0 auto;
@@ -33,7 +37,7 @@ $secondaryTheme: #575a89;
   transition: all 0.3s ease-out;
 }
 
-.app__header a:hover::after {
+.app__header ul a:hover::after {
   width: 100%;
 }
 

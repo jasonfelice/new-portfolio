@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import Style from './header.module.scss';
+import envelop from '../../assets/icons/envelope.svg';
 
 const Header = ({ scrolled }) => {
   // Box shadow style
@@ -15,7 +16,7 @@ const Header = ({ scrolled }) => {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <span>Email</span>
+      <a href="mailto:jasonfelice0@gmail.com" target="_blank" rel="noreferrer"><img alt="envelop" src={envelop} /></a>
     </header>
   );
 };
