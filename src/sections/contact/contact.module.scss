@@ -79,6 +79,7 @@
   border-radius: 5px;
   transition: all 0.2s ease-out;
   cursor: pointer;
+  z-index: 1;
 }
 
 .formPanel button:hover {
@@ -109,5 +110,6 @@
 
   a:hover {
     filter: invert(0.4);
+    transform: translateY(-3px);
   }
 }
