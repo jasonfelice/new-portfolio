@@ -5,7 +5,7 @@ const Projects = () => (
   <section id="projects" className={Style.projects}>
     <div className={Style.headline}>
       <div className={Style.headlineBar} />
-      <span>Portfolio</span>
+      <span>Projects</span>
       <div className={Style.headlineBar} />
     </div>
     <div className={Style.portfolioWrapper}>
