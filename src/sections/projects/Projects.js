@@ -12,6 +12,7 @@ const Projects = () => (
       <div className={Style.portfolio}>
         <Portfolio />
       </div>
+      <div><span>Scroll Right</span></div>
     </div>
   </section>
 );
