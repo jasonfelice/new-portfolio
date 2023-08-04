@@ -32,9 +32,9 @@ const Contact = () => (
           <div className={Style.formPanel}>
             <button type="submit">Submit</button>
             <ul className={Style.socialLinks}>
-              <li><a style={{ backgroundImage: `url(${linkedin})` }} target="_blank" href="/#" /></li>
-              <li><a style={{ backgroundImage: `url(${twitter})` }} target="_blank" href="/#" /></li>
-              <li><a style={{ backgroundImage: `url(${github})` }} target="_blank" href="/#" /></li>
+              <li><a style={{ backgroundImage: `url(${linkedin})` }} target="_blank" href="https://www.linkedin.com/in/jake-felice/" rel="noreferrer" /></li>
+              <li><a style={{ backgroundImage: `url(${twitter})` }} target="_blank" href="https://twitter.com/jasonfelice0" rel="noreferrer" /></li>
+              <li><a style={{ backgroundImage: `url(${github})` }} target="_blank" href="https://github.com/jasonfelice" rel="noreferrer" /></li>
             </ul>
           </div>
         </form>
