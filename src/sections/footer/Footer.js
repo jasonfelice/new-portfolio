@@ -19,19 +19,19 @@ const Footer = () => (
       <h3>Connect</h3>
       <ul className={Style.social}>
         <li>
-          <a target="_blank" href="/#">
+          <a target="_blank" href="https://www.linkedin.com/in/jake-felice/" rel="noreferrer">
             <i style={{ backgroundImage: `url(${linkedin})` }} />
             <span>LinkedIn</span>
           </a>
         </li>
         <li>
-          <a target="_blank" href="/#">
+          <a target="_blank" href="https://github.com/jasonfelice" rel="noreferrer">
             <i style={{ backgroundImage: `url(${github})` }} />
             <span>GitHub</span>
           </a>
         </li>
         <li>
-          <a target="_blank" href="/#">
+          <a target="_blank" href="https://twitter.com/jasonfelice0" rel="noreferrer">
             <i style={{ backgroundImage: `url(${twitter})` }} />
             <span>Twitter</span>
           </a>
