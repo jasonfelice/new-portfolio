@@ -5,6 +5,7 @@ import Footer from './sections/footer/Footer';
 import Header from './sections/header/Header';
 import Main from './sections/main/Main';
 import Projects from './sections/projects/Projects';
+import Cursor from './components/Cursor/Cursor';
 
 function App() {
   // Get scroll value for header component
@@ -17,14 +18,17 @@ function App() {
   });
 
   return (
-    <div className="App">
-      <Header scrolled={!!scroll} />
-      <Main />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      <Cursor />
+      <div className="App">
+        <Header scrolled={!!scroll} />
+        <Main />
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
 }
 
