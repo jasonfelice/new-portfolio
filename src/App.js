@@ -11,15 +11,20 @@ function App() {
   // Get scroll value for header component
 
   const [scroll, setScroll] = useState(0);
+  const [coords, setCoords] = useState({ x: 0, y: 0 });
+
   useEffect(() => {
     window.addEventListener('scroll', () => {
       setScroll(window.pageYOffset);
+    });
+    window.addEventListener('mousemove', (e) => {
+      setCoords({ x: e.clientX, y: e.clientY });
     });
   });
 
   return (
     <>
-      <Cursor />
+      <Cursor coords={coords} />
       <div className="App">
         <Header scrolled={!!scroll} />
         <Main />
