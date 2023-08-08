@@ -1,23 +1,29 @@
 /* eslint-disable react/prop-types */
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Style from './cursor.module.scss';
 
-const Cursor = ({ coords }) => {
+const Cursor = () => {
+  const [coords, setCoords] = useState({ x: 0, y: 0 });
   useEffect(() => {
-
-  }, [coords]);
+    window.addEventListener('mousemove', (e) => {
+      setCoords({ x: e.clientX, y: e.clientY + window.pageYOffset });
+    });
+  }, []);
   return (
     <>
-      <div style={{ left: `${coords.x - 12}px`, top: `${coords.y - 12}px` }} className={Style.circle} />
-      <div className={Style.circle} />
-      <div className={Style.circle} />
-      <div className={Style.circle} />
-      <div className={Style.circle} />
-      <div className={Style.circle} />
-      <div className={Style.circle} />
-      <div className={Style.circle} />
-      <div className={Style.circle} />
-      <div className={Style.circle} />
+      {
+        (() => {
+          let { x, y } = coords;
+          const arr = [];
+          for (let i = 1; i <= 10; i += 1) {
+            arr.push(<div style={{ left: `${x - 12}px`, top: `${y - 12}px` }} className={Style.circle} />);
+
+            x += 10;
+            y += 10;
+          }
+          return arr;
+        })()
+}
     </>
   );
 };
