@@ -5,7 +5,7 @@ import Style from './cursor.module.scss';
 const Cursor = () => {
   window.onload = () => {
     const coords = { x: 0, y: 0 };
-    const circles = document.querySelectorAll('circle');
+    const circles = document.querySelectorAll('.circle');
 
     const colors = [
       '#ffb56b',
@@ -68,26 +68,26 @@ const Cursor = () => {
   };
   return (
     <>
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
-      <circle className={Style.circle} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
+      <div className={`circle ${Style.circle}`} />
     </>
   );
 };
