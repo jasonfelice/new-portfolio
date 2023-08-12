@@ -1,6 +1,6 @@
 .circle {
-  height: 24px;
-  width: 24px;
+  height: 30px;
+  width: 30px;
   border-radius: 24px;
   background: black;
   position: absolute;
@@ -8,5 +8,6 @@
   left: 0;
   z-index: 100;
   pointer-events: none;
-  mix-blend-mode: color-dodge;
+  mix-blend-mode: exclusion;
+  opacity: 0.07;
 }
