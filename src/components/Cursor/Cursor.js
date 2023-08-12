@@ -67,7 +67,7 @@ const Cursor = () => {
     animateCircles();
   };
   return (
-    <>
+    <div id="cursor">
       <div className={`circle ${Style.circle}`} />
       <div className={`circle ${Style.circle}`} />
       <div className={`circle ${Style.circle}`} />
@@ -88,7 +88,7 @@ const Cursor = () => {
       <div className={`circle ${Style.circle}`} />
       <div className={`circle ${Style.circle}`} />
       <div className={`circle ${Style.circle}`} />
-    </>
+    </div>
   );
 };
 export default Cursor;
