@@ -4,7 +4,7 @@ import envelop from '../../assets/icons/envelope.svg';
 
 const Header = ({ scrolled }) => {
   // Box shadow style
-  const shadow = scrolled ? { boxShadow: '0 0 5px #888' } : {};
+  const shadow = scrolled ? { boxShadow: '0 0 5px #888', background: '#fff' } : {};
 
   return (
     <header style={shadow} className={Style.app__header}>
