@@ -2,8 +2,7 @@ import { motion } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
 import Styles from './portfolio.module.scss';
 import Card from './Card';
-
-const temp = [1, 2, 3, 4, 5];
+import projects from '../data/data';
 
 const Portfolio = () => {
   const [width, setWidth] = useState(0);
@@ -17,8 +16,8 @@ const Portfolio = () => {
     <motion.div ref={carousel} className={Styles.carousel}>
       <motion.div drag="x" dragConstraints={{ right: 0, left: -width }} className={Styles.innerCarousel}>
         {
-        temp.map((x) => (
-          <Card key={x} />
+        projects.map((data) => (
+          <Card key={data.index} info={data} />
         ))
       }
       </motion.div>

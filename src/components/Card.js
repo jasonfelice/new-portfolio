@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -6,30 +7,36 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import Styles from './portfolio.module.scss';
 
-export default function MultiActionAreaCard() {
+export default function MultiActionAreaCard({ info }) {
+  const {
+    title, description, github, live, image,
+  } = info;
   return (
     <Card className={Styles.card} sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
+      <a href={live} target="_blank" rel="noreferrer">
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            height="140"
+            image={image}
+            alt={`${title} image`}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              {title}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              {description}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </a>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
+        <a href={github} target="_blank" rel="noreferrer">
+          <Button size="small" color="primary">
+            GitHub
+          </Button>
+        </a>
       </CardActions>
     </Card>
   );
