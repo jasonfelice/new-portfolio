@@ -34,7 +34,7 @@ export default function MultiActionAreaCard({ info }) {
       <CardActions>
         <a href={github} target="_blank" rel="noreferrer">
           <Button size="small" color="primary">
-            GitHub
+            Source
           </Button>
         </a>
       </CardActions>
