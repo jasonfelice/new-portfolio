@@ -7,7 +7,17 @@
 .title {
   text-align: center;
   margin: auto;
+  position: relative;
+  font-size: 3rem;
+  color: #2f2e41;
+  z-index: -1;
+  opacity: 0;
+  animation: fade-in 2s forwards;
 }
 
-
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
 
