@@ -54,7 +54,6 @@ const About = () => {
             <div className={Style.headline}>
               <Avatar sx={{ width: '150px', height: '150px' }} alt="Jake Felice" src="/static/images/avatar/1.jpg" />
               <h2>
-                I’m Jake Felice
                 Full-Stack Software Developer
                 and a tech fanatic
               </h2>

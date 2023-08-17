@@ -1,8 +1,13 @@
-.title {
-  text-align: center;
-}
-
 .main {
+  display: flex;
   background: url(../../assets/background.svg) center center/cover;
   height: 35vw;
 }
+
+.title {
+  text-align: center;
+  margin: auto;
+}
+
+
+
