@@ -1,5 +1,6 @@
 .about {
   padding: 25px 50px;
+  padding-top: 9vw;
   position: relative;
 }
 
@@ -33,6 +34,16 @@
 }
 
 // About author
+
+.curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
 
 .me {
   display: flex;
