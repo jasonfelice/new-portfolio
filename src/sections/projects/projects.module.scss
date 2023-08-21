@@ -16,3 +16,24 @@
   background: #838383;
   flex: 1;
 }
+
+.arrowRight {
+  background: url(../../assets/icons/straight-arrow.svg) center center no-repeat;
+  display: block;
+  margin: auto;
+  filter: invert(0.45);
+  transform: rotate(-90deg);
+  width: 20px;
+  height: 60px;
+  animation: bounceRight 1s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes bounceRight {
+  0% {
+    transform: rotate(-90deg) translateY();
+  }
+
+  100% {
+    transform: rotate(-90deg) translateY(30px);
+  }
+}
