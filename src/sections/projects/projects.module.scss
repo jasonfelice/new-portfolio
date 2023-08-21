@@ -17,7 +17,7 @@
   flex: 1;
 }
 
-.arrowRight {
+.arrowLeft {
   background: url(../../assets/icons/straight-arrow.svg) center center no-repeat;
   display: block;
   margin: auto;
@@ -25,10 +25,10 @@
   transform: rotate(-90deg);
   width: 20px;
   height: 60px;
-  animation: bounceRight 1s ease-in-out infinite alternate-reverse;
+  animation: bounceLeft 1s ease-in-out infinite alternate-reverse;
 }
 
-@keyframes bounceRight {
+@keyframes bounceLeft {
   0% {
     transform: rotate(-90deg) translateY();
   }

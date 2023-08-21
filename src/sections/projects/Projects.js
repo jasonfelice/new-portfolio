@@ -12,7 +12,7 @@ const Projects = () => (
       <div className={Style.portfolio}>
         <Portfolio />
       </div>
-      <div style={{ display: 'flex' }}><span className={Style.arrowRight} /></div>
+      <div style={{ display: 'flex' }}><span className={Style.arrowLeft} /></div>
     </div>
   </section>
 );
