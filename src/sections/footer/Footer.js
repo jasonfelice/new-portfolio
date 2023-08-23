@@ -6,10 +6,12 @@ import twitter from '../../assets/social-icons/twitter.svg';
 
 const Footer = () => (
   <footer className={Style.footer}>
-    <div className={Style.backTop}>
-      <span>Back to top</span>
-      <i />
-    </div>
+    <a style={{ textDecoration: 'none', color: '#fff' }} href="/#">
+      <div className={Style.backTop}>
+        <span>Back to top</span>
+        <i />
+      </div>
+    </a>
     <span>
       © Jake Felice
       {' '}
