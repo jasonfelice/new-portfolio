@@ -42,3 +42,9 @@
     transform: rotate(-90deg) translateY(30px);
   }
 }
+
+@media only screen and (max-width: 500px) {
+   .projects {
+    padding: 5px;
+   }
+}
