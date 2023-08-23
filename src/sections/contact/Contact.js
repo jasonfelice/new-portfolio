@@ -19,10 +19,11 @@ const Contact = () => (
           I&apos;m always interested in hearing about new projects,
           so feel free to reach out if you&apos;d like to get in touch.
         </p>
-        <form>
-          <TextField required id="outlined-basic" label="Name" variant="outlined" />
-          <TextField required id="outlined-basic" type="email" label="Email" variant="outlined" />
+        <form action="https://formspree.io/f/mdobdvjd" method="post">
+          <TextField required id="outlined-basic" name="name" label="Name" variant="outlined" />
+          <TextField required id="outlined-basic" name="email" type="email" label="Email" variant="outlined" />
           <TextField
+            name="message"
             required
             id="outlined-multiline-flexible"
             label="Type your message"
