@@ -45,7 +45,8 @@ const About = () => {
   return (
     <section id="about" className={Styles.about}>
       <div className={Styles.greeting}>
-        <span>Hello</span>
+        <div className={Styles.greetingBar} />
+        <span>Namaste 🙏</span>
         <div className={Styles.greetingBar} />
       </div>
       <div className={Styles.aboutWrapper}>
