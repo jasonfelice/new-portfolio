@@ -5,7 +5,7 @@ const Main = () => (
     <h1 className={Style.title}>
       Hi, I&apos;m Shivam
       <br />
-      <span>aka Jake</span>
+      <span>a.k.a Jake</span>
     </h1>
   </section>
 );
