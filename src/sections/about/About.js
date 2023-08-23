@@ -53,7 +53,7 @@ const About = () => {
         <div className={Styles.content}>
           <div className={Styles.me}>
             <div className={Styles.headline}>
-              <Avatar sx={{ width: '150px', height: '150px' }} alt="Jake Felice" src="/static/images/avatar/1.jpg" />
+              <Avatar sx={{ width: '150px', height: '150px' }} alt="Jake Felice" src="https://firebasestorage.googleapis.com/v0/b/ig-clone-9bf7a.appspot.com/o/portfolio%2Fprofile.jpg?alt=media&token=a84a117e-f495-4708-add7-eb5d3ee403db" />
               <h2>
                 Full-Stack Software Developer
                 and a tech fanatic

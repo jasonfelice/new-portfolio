@@ -25,3 +25,17 @@
     color: inherit;
   }
 }
+
+.projectTitle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.projectTitle::after {
+  content: "";
+  display: inline-block;
+  background: url(../assets/icons/external-link.svg) no-repeat center center/cover;
+  width: 25px;
+  height: 25px;
+}
