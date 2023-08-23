@@ -9,12 +9,17 @@
   gap: 1%;
   align-items: center;
   margin-bottom: 60px;
+  font-size: 30px;
 }
 
 .headlineBar {
   height: 1px;
   background: #838383;
   flex: 1;
+}
+
+.headlineBar:nth-child(1) {
+  flex: 0 0 50px;
 }
 
 .arrowLeft {
