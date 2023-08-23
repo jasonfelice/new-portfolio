@@ -13,6 +13,12 @@
   z-index: -1;
   opacity: 0;
   animation: fade-in 2s forwards;
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 1.2rem;
+  }
 }
 
 @keyframes fade-in {
