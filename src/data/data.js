@@ -11,7 +11,7 @@ const projects = [
     tech: ['JS', 'React', 'Firebase'],
     image: insta,
     live: 'https://ig-clone-9bf7a.web.app/',
-    github: 'https://github.com/jasonfelice',
+    github: 'https://github.com/jasonfelice/ig-clone',
   },
   {
     index: 1,
