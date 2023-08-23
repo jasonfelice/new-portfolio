@@ -12,7 +12,7 @@ export default function MultiActionAreaCard({ info }) {
     title, description, github, live, image,
   } = info;
   return (
-    <Card className={Styles.card} sx={{ maxWidth: 345 }}>
+    <Card className={Styles.card} sx={{ maxWidth: 345, boxShadow: '0 0 10px 0 grey' }}>
       <a href={live} target="_blank" rel="noreferrer">
         <CardActionArea>
           <CardMedia
@@ -22,7 +22,7 @@ export default function MultiActionAreaCard({ info }) {
             alt={`${title} image`}
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography sx={{ fontWeight: '600', color: '#455' }} gutterBottom variant="h5" component="div">
               {title}
             </Typography>
             <Typography variant="body2" color="text.secondary">
