@@ -1,0 +1,47 @@
+// Carousel Slider
+
+.carousel {
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.innerCarousel {
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+}
+
+// Card
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  height: 500px;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.projectTitle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.projectTitle::after {
+  content: "";
+  display: inline-block;
+  background: url(../assets/icons/external-link.svg) no-repeat center center/cover;
+  width: 25px;
+  height: 25px;
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel {
+    width: 100%;
+  }
+}

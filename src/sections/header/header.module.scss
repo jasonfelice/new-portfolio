@@ -1,0 +1,57 @@
+$theme: #2f2e41;
+$secondaryTheme: #575a89;
+
+.app__header {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  padding: 0 50px;
+  height: 80px;
+  background-color: #ffffff00;
+  transition: all 0.2s ease-out;
+  z-index: 9;
+
+  h3 {
+    color: $secondaryTheme;
+  }
+
+  img {
+    width: 40px;
+  }
+}
+
+.app__header a {
+  text-decoration: none;
+  color: $theme;
+}
+
+.app__header ul a::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 0;
+  height: 2px;
+  background: $secondaryTheme;
+  transition: all 0.3s ease-out;
+}
+
+.app__header ul a:hover::after {
+  width: 100%;
+}
+
+.app__headerNav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .app__header ul {
+    position: sticky;
+    gap: 10px;
+  }
+}

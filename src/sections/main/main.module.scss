@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  background: url(../../assets/background.svg) center center/cover;
+  height: 35vw;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  font-size: 3rem;
+  color: #2f2e41;
+  z-index: -1;
+  opacity: 0;
+  animation: fade-in 2s forwards;
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 1.2rem;
+  }
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    padding-top: 50px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}

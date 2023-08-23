@@ -1,0 +1,146 @@
+.about {
+  padding: 25px 50px;
+  padding-top: 4vw;
+  position: relative;
+}
+
+.aboutWrapper {
+  display: flex;
+
+  .content {
+    flex: 1;
+  }
+}
+
+.aboutWrapper::after {
+  content: '';
+  background: url(../../assets/graphics/about.svg) no-repeat center center/cover;
+  display: block;
+  height: 402px;
+  width: 450px;
+}
+
+.greeting {
+  display: flex;
+  gap: 1%;
+  align-items: center;
+  margin-bottom: 60px;
+
+  span {
+    font-size: 1.5rem;
+  }
+}
+
+.greetingBar {
+  height: 1px;
+  background: #838383;
+  flex: 1;
+}
+
+// About author
+
+.curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+
+  svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 66px;
+  }
+}
+
+
+.me {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 50%;
+  margin-bottom: 85px;
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  gap: 12px;
+  width: 500px;
+
+  h2 {
+    text-align: left;
+    line-height: 30px;
+  }
+}
+
+// Skills
+
+.technologies {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 25px;
+}
+
+.tech {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  filter: invert(0.2);
+}
+
+@media only screen and (max-width: 1150px) {
+  .aboutWrapper::after {
+    height: 300px;
+    width: 340px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .aboutWrapper::after {
+    height: 180px;
+    width: 205px;
+  }
+}
+
+@media only screen and (max-width: 886px) {
+  .about {
+    padding: 5px 5px;
+    padding-top: 10vw;
+  }
+
+  .aboutWrapper::after {
+    display: none;
+  }
+
+  .me {
+    width: 100%;
+  }
+
+  .headline {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .tech {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about {
+   padding: 5px;
+   padding-top: 11vw;
+  }
+
+  .technologies {
+    gap: 10px;
+  }
+}

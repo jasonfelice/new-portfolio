@@ -1,0 +1,50 @@
+.projects {
+  padding: 25px 50px;
+}
+
+// Headline
+
+.headline {
+  display: flex;
+  gap: 1%;
+  align-items: center;
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+
+.headlineBar {
+  height: 1px;
+  background: #838383;
+  flex: 1;
+}
+
+.headlineBar:nth-child(1) {
+  flex: 0 0 50px;
+}
+
+.arrowLeft {
+  background: url(../../assets/icons/straight-arrow.svg) center center no-repeat;
+  display: block;
+  margin: auto;
+  filter: invert(0.45);
+  transform: rotate(-90deg);
+  width: 20px;
+  height: 60px;
+  animation: bounceLeft 1s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes bounceLeft {
+  0% {
+    transform: rotate(-90deg) translateY();
+  }
+
+  100% {
+    transform: rotate(-90deg) translateY(30px);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+   .projects {
+    padding: 5px;
+   }
+}

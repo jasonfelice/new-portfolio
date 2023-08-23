@@ -1,0 +1,12 @@
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  pointer-events: none;
+  mix-blend-mode: color-dodge;
+}

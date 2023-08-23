@@ -1,0 +1,94 @@
+footer {
+  background-color: #2F2E41;
+  padding: 25px 50px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+// Back to top icon
+
+@keyframes bounce {
+  from {
+    transform: rotate(180deg) translate(0, 0);
+  }
+  to {
+    transform: rotate(180deg) translate(0, 7px);
+  }
+}
+
+.backTop {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+
+  i {
+    background: url(../../assets//icons/circled-arrow.svg) no-repeat center center/cover;
+    display: block;
+    width: 40px;
+    height: 42px;
+    transform: rotate(180deg);
+    filter: invert(1);
+    animation: 1s ease-out infinite alternate-reverse;
+    animation-name: bounce;
+  }
+}
+
+// Footer Social links
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  h3 {
+    margin-bottom: 5px;
+  }
+}
+
+.contactList a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+
+  li:hover {
+    transition: all 0.2s ease-out;
+    filter: invert(0.3);
+  }
+
+
+  i {
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+@media only screen and (max-width: 886px) {
+  footer {
+    flex-direction: column;
+    gap: 50px;
+    align-items: stretch;
+  }
+
+  .social {
+    gap: 10px;
+  }
+}
