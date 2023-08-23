@@ -19,7 +19,7 @@ export default function MultiActionAreaCard({ info }) {
         <CardActionArea>
           <CardMedia
             component="img"
-            height="140"
+            height="220"
             image={image}
             alt={`${title} image`}
           />
