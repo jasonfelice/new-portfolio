@@ -4,12 +4,14 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import Chip from '@mui/material/Chip';
+import Stack from '@mui/material/Stack';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import Styles from './portfolio.module.scss';
 
 export default function MultiActionAreaCard({ info }) {
   const {
-    title, description, github, live, image,
+    title, description, tech, github, live, image,
   } = info;
   return (
     <Card className={Styles.card} sx={{ maxWidth: 345, boxShadow: '0 0 10px 0 grey' }}>
@@ -31,6 +33,13 @@ export default function MultiActionAreaCard({ info }) {
           </CardContent>
         </CardActionArea>
       </a>
+      <Stack sx={{ padding: '0 16px' }} direction="row" spacing={1}>
+        {
+          tech.map((tec) => (
+            <Chip key={tec} label={tec} variant="outlined" />
+          ))
+        }
+      </Stack>
       <CardActions>
         <a href={github} target="_blank" rel="noreferrer">
           <Button size="small" color="primary">
