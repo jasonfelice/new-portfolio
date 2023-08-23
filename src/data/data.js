@@ -28,7 +28,7 @@ const projects = [
     description: 'Math magicians is a Single Page App (SPA) that allows users to make simple calculations. Built with: React',
     tech: ['JS', 'React'],
     image: math,
-    live: 'luxury-salmiakki-c12cfc.netlify.app/',
+    live: 'https://luxury-salmiakki-c12cfc.netlify.app/',
     github: 'https://github.com/jasonfelice/Math-Magicians',
   },
   {
