@@ -8,12 +8,11 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [� Authors ](#-authors-)
+  - [👥 Authors ](#-authors-)
     - [👤 **Jake Felice**](#-jake-felice)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -90,13 +89,5 @@ If you like this project, dont' forget to star it and follow me on GitHub.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 ...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
