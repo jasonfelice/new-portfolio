@@ -6,7 +6,6 @@
 - [📖 Portfolio ](#-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
   - [👥 Authors ](#-authors-)
     - [👤 **Jake Felice**](#-jake-felice)
@@ -32,13 +31,6 @@
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **Create Post**
-- **Post Comment**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
