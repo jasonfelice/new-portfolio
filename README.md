@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Instagram\_clone ](#-instagram_clone-)
+- [📖 Portfolio ](#-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -16,7 +16,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Instagram_clone <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 > This is my portfolio.
 
