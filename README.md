@@ -80,30 +80,30 @@ If you like this project, dont' forget to star it and follow me on GitHub.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-<a target="_blank" href="https://icons8.com/icon/39853/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/39853/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a target="_blank" href="https://icons8.com/icon/vMqgHSToxrJR/typescript">TypeScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/vMqgHSToxrJR/typescript">TypeScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a target="_blank" href="https://icons8.com/icon/22181/ruby-programming-language">Ruby Programming Language</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/22181/ruby-programming-language">Ruby Programming Language</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a target="_blank" href="https://icons8.com/icon/25010/postgresql">PostgreSQL</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/25010/postgresql">PostgreSQL</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a target="_blank" href="https://icons8.com/icon/fdBWYEwusJbm/react">React</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/fdBWYEwusJbm/react">React</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a target="_blank" href="https://icons8.com/icon/egQrEphjrirz/redux">Redux</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/egQrEphjrirz/redux">Redux</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a target="_blank" href="https://icons8.com/icon/egQrEphjrirz/redux">Redux</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/egQrEphjrirz/redux">Redux</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a target="_blank" href="https://icons8.com/icon/ZMFmFsekpKfY/ruby-on-rails">Ruby On Rails</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/ZMFmFsekpKfY/ruby-on-rails">Ruby On Rails</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a target="_blank" href="https://icons8.com/icon/62856/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/62856/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a target="_blank" href="https://icons8.com/icon/62925/linkedin-circled">LinkedIn Circled</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/62925/linkedin-circled">LinkedIn Circled</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a target="_blank" href="https://icons8.com/icon/102925/twitter">Twitter</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/102925/twitter">Twitter</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a target="_blank" href="https://icons8.com/icon/zWS3SNRj7odb/external-link">External Link</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/zWS3SNRj7odb/external-link">External Link</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a href="https://www.freepik.com/free-vector/full-moon-night-sky-with-stars-clouds-trees-pond-reflecting-starlight_12682493.htm#from_view=detail_collection">Image by upklyak</a> on Freepik
+- <a href="https://www.freepik.com/free-vector/full-moon-night-sky-with-stars-clouds-trees-pond-reflecting-starlight_12682493.htm#from_view=detail_collection">Image by upklyak</a> on Freepik
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
